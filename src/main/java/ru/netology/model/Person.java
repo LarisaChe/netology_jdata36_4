@@ -2,6 +2,7 @@ package ru.netology.model;
 
 import jakarta.persistence.*;
 
+
 @Entity
 public class Person {
 
