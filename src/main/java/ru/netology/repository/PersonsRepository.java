@@ -20,8 +20,7 @@ public class PersonsRepository {
     }
 
     public List<Person> getPersonsByCity(String city) {
-        List<Person> resultList = personRepository.findByCityOfLiving(city, Sort.by(Sort.Order.asc("name")));
-        //resultList.forEach(System.out::println);
+        List<Person> resultList = personRepository.findByCityOfLiving(city);
         return resultList;
     }
 
